@@ -135,15 +135,15 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%
 %%%%%% DEFINE ELEMENTS HERE %%%%%%%
-\newcommand{\name}{Yash} % Your Name
-\newcommand{\course}{Bachelor of Technology} % Your Course
-\newcommand{\roll}{2017CEB1035} % Your Roll No.
-\newcommand{\phone}{9113358078} % Your Phone Number
-\newcommand{\emaila}{yashk.code@gmail.com} %Email 1
-\newcommand{\emailb}{yashk.code@gmail.com} %Email 2
-\newcommand{\github}{yashcodes161198} %Github
-\newcommand{\website}{https://shorturl.at/ijFL7} %Website
-\newcommand{\linkedin}{yash-5a56a4234} %linkedin
+\newcommand{\name}{Shashwat} % Your Name
+\newcommand{\course}{Bachelor of Engineering} % Your Course
+\newcommand{\roll}{F20230266} % Your Roll No.
+\newcommand{\phone}{7461012314} % Your Phone Number
+\newcommand{\emaila}{f20230266@pilani.bits-pilani.ac.in} %Email 1
+\newcommand{\emailb}{f20230266@pilani.bits-pilani.ac.in} %Email 2
+\newcommand{\github}{shashwat-leetcode} %Github
+\newcommand{\website}{https://leetcode.com/shashwat-leetcode} %Website
+\newcommand{\linkedin}{shashwat-leetcode} %linkedin
 
 
 
@@ -155,11 +155,11 @@
   \textbf{\LARGE \name} & +91-\phone\\
   
   \course & {\faEnvelope} \href{mailto:\emailb}{\emailb}\\
-   {Indian Institute Of Technology, Ropar} &  {\faLinkedin} \href{https://www.linkedin.com/in/\linkedin/}{\underline{yash-linkedIn}}
+   {Birla Institute of Technology and Science, Pilani} &  {\faLinkedin} \href{https://www.linkedin.com/in/\linkedin/}{\underline{shashwat-linkedIn}}
    
    \\
-  {JEE: Top 3\% in Advanced, Top 1\% in Mains} 
-  &  {\faGithub}   \href{https://github.com/yashcodes161198}{\underline{yash-github}}
+  {Pilani, Rajasthan, India} 
+  &  {\faGithub}   \href{\website}{\underline{shashwat-leetcode}}
 \end{tabularx}
 }
 
@@ -170,8 +170,8 @@
 \section{\textbf{Education}}
   \resumeSubHeadingListStart
     \resumeSubheading
-      { Indian Institute of Technology Ropar}{Rupnagar, Punjab}
-      {Bachelor of Technology;  GPA: 7.3/10}{2017 -- 2021}
+      { Birla Institute of Technology and Science Pilani}{Pilani, Rajasthan}
+      {Bachelor of Engineering in Civil}{Aug 2023 -- Jul 2027}
     % \small{Coursework: Data structure \& algorithms, Databases, Machine Learning, Data Science, Deep Learning}
   \resumeSubHeadingListEnd
 \vspace{-5mm}
@@ -181,19 +181,18 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \resumeSubheading
-      {\begin{large} ABC Fitness Solutions India\end{large}}{Hyderabad}
-{Software Development Engineer II}{Mar 2025 -- Present}
+      {\begin{large} SWECHA Telangana\end{large}}{Remote}
+{Software Engineer Intern}{May 2024 -- Jul 2024}
 
     \vspace{2mm}
-    \teamFontSize{\textbf{Memberships \& Operations}}
+    \teamFontSize{\textbf{Distributed Systems \& LLM Infrastructure}}
     \vspace{-3mm}
 \resumeItemListStart
-\item {Optimized a high-CPU \textbf{“get members” API} via \textbf{SQL rewrites} and \textbf{index-friendly filters} — improved \textbf{P50} latency by 20\% and \textbf{P99} latency by 1000\%.}
-\item {Initiated a weekly \textbf{cross-team tech-talk series}; scaled participation to 4--5 teams covering CI/CD, React testing, authentication flows, system integration, and distributed consensus.}
-\item {Fixed the \textbf{refund flow} so UI triggers only after \textbf{successful cancellation} and invoices reload correctly — eliminated \textbf{premature refund prompts}.}
-\item {Centralised retry logic using \textbf{Spring Retry} and \textbf{Spring Cloud Config}, moving backoff to config for easier ops control and improved observability.}
-\item {Led cross-team investigation to root-cause and resolve an \textbf{agreements queue mismatch}, reducing escalations and support overhead.}
-\item {Prevented \textbf{duplicate member creation} by adding validation, backend \textbf{dedupe} safeguards, and improved \textbf{logging} and \textbf{reconciliation}.}
+\item {Architected a distributed \textbf{GPU cluster} by aggregating compute resources from multiple clients, achieving \textbf{100+ TFLOPS} using the Petals distributed inference framework.}
+\item {Orchestrated cluster formation and secure node discovery through automated \textbf{peer-to-peer networking protocols}.}
+\item {Deployed a \textbf{Telugu language model} across the distributed cluster and executed fine-tuning workflows on domain-specific datasets.}
+\item {Fine-tuned \textbf{TinyLlama-1.1B} (4-bit quantized) using \textbf{LoRA} on 15K samples, improving task accuracy.}
+\item {Built and \textbf{Dockerized} a \textbf{FastAPI}-based LLM inference service with async request handling, token streaming, and request batching.}
 
 
 \resumeItemListEnd
@@ -202,39 +201,6 @@
 \vspace{-2mm}
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \resumeSubheading
-      {\begin{large} Beehyv Software Solutions\end{large}}{Hyderabad}
-{Software Development Engineer (FullStack)}{Aug 2022 -- Mar 2025}
-
-    \vspace{2mm}
-    \teamFontSize{\textbf{IRIS}}
-    \vspace{-3mm}
-    \resumeItemListStart
-    \item {Developed \textbf{JWT} based login for user authentication for the banking platform of Reserve Bank of South Africa.}
-    \item {Developed password reset with email verification}
-    \item {Designed a solution for seamless \textbf{OTP} integration with customizable settings and URL caching to enhance security and optimize user authentication across APIs. Used Plivo and Exotel for sending OTP, used Circuit-Breaker pattern
-    Designed and implemented a robust OTP authentication system to enhance security and optimize API authentication. Integrated \textbf{Plivo} and \textbf{Exotel} for OTP delivery and leveraged the \textbf{Circuit Breaker} pattern to ensure reliability and fault tolerance
-    }
-    \item {Designed and integrated \textbf{XSS filter} to sanitize all inputs to the project}
-    \item {Designed and developed a fault-tolerant \textbf{scheduler} microservice used by various teams}
-    \item {Built \textbf{thread safe} APIs to generate Liquidity invoice and reimburse the amount using \textbf{Oracle Flexcube}.}
-    \item {Developed dynamic \textbf{pdf-generation} for invoice download}
-    \item {Developed comprehensive \textbf{unit tests (UTs)} and \textbf{integration tests (ITs)} to ensure robustness and reliability of all code modifications.}
-
-    \resumeItemListEnd
-
-    \vspace{-1mm}
-    \teamFontSize{\textbf{Beesheets}}
-    \vspace{-3mm}
-    \resumeItemListStart
-    \item {Enhanced payroll reporting efficiency by \textbf{95\%} through SQL optimizations.}
-    \item{Developed the complete notification system based on \textbf{pub sub} model.}
-    \item {Integrated \textbf{Keycloak} for secure user authentication and authorization. Also used \textbf{Keycloak Admin REST API} for role management and user creation.}
-    \item {Designed entire backend workflow for employee onboarding. Used \textbf{Graph API} to generate new Microsoft users.}
-    \item {\textbf{Dockerized} Beesheets deployment process, improving deployment efficiency and scalability.}
-    \item {Developed user-friendly frontend features using \textbf{AgGrid}, developed custom column filters (available in paid version) from scratch with \textbf{Redux} and \textbf{SpringBoot}.}
-    \item {Developed a generic filter drawer with interactive chips for active filters in \textbf{React}. Also built a generic monthRange selector using \textbf{Redux} from scratch.}
-    \resumeItemListEnd
     \vspace{-2mm}
     
     \vspace{0mm}
@@ -258,17 +224,16 @@
     % \resumeItemListEnd
 
     \resumeProject
-      {Http-Server-From-Scratch} %Project Name
+      {Distributed Cluster Manager} %Project Name
       {} %Project Name, Location Name
-      {Jun 2024 - Jul 2024} %Event Dates
-      {\href{https://github.com/yashcodes161198/simple-java-http-server}{\textbf{Github}}} %Website
+      {May 2024 - Jul 2024} %Event Dates
+      {} %Website
       \resumeItemListStart
         \vspace{-6mm}
-        \item Custom \textbf{HTTP Parsing \& Validation}: Parses requests with strict format checks, ensuring detailed error feedback.
-        \item Multi-Client Support: Handles multiple client requests concurrently, leveraging \textbf{multithreading}
-        \item Customizable Responses: Allows dynamic response configuration for status codes, headers, and content.
-        \item HTTP Version Support: Ensures compatibility with different HTTP versions, flagging unsupported ones.
-        \item Error Management \& \textbf{Test Driven Developement}: Standardized errors (404, 500, etc.) improve client communication and debugging.
+        \item Developed an application that automates \textbf{Exo installation} and cluster connectivity using \textbf{Tailscale} for secure mesh networking.
+        \item Implemented hardware-aware cluster matching to optimize node selection based on \textbf{GPU specifications} and network topology.
+        \item Built a real-time resource monitoring dashboard with metrics for computational capacity (\textbf{TFLOPS}), node availability, and compute time allocation.
+        \item Designed a heartbeat-based health monitoring system for automatic node failure detection and recovery.
     \resumeItemListEnd
     
      \vspace{50mm}
@@ -277,15 +242,14 @@
       {Log Monitoring Application} %Project Name
       {} %Project Name, Location Name
       {Mar 2023 - Apr 2023} %Event Dates
-      {\href{https://github.com/yashcodes161198/LogMonitor}
-      {\textbf{Github}}} %Website
+      {} %Website
       \resumeItemListStart
         \vspace{-6mm}
-        \item Backend(SpringBoot) and Frontend(React) application to monitor an append-only log file 
-        \item Used \textbf{WatchService} to efficiently read the log file and \textbf{WebSockets} to communicate changes to the clients. 
-        \item Optimized the reader to handle extremely large log files (\textbf{100 GB}). 
-        \item \textbf{Multiple clients} can subscribe to the service with the option to play/pause the reception of logs while using a persistent websocket connection. 
-        \item \textbf{Reac}t app to connect to the service with \textbf{scroll-lock} feature similar to terminal. Also has \textbf{play/pause} button for logs.
+        \item Backend (\textbf{SpringBoot}) and Frontend (\textbf{React}) application to monitor append-only log files in real time.
+        \item Used \textbf{WatchService} for efficient file monitoring and \textbf{WebSockets} for real-time client communication.
+        \item Optimized the log reader to handle extremely large files (\textbf{100+ GB}) with minimal memory footprint.
+        \item Implemented \textbf{multi-client} subscription support with play/pause controls via persistent WebSocket connections.
+        \item Built React frontend with \textbf{scroll-lock} feature and real-time log streaming, mimicking terminal behavior.
     \resumeItemListEnd
       
   \resumeSubHeadingListEnd
@@ -296,11 +260,11 @@
 \section{\textbf{Skills}}
 
 \begin{tabularx}{\textwidth}{@{}p{3.5cm}X@{}}
-Tech Stack: & \textbf{Java / Spring Boot, Spring Security, React.js, JSP} \\
-Languages: & Java, C/C++, Python, JavaScript \\
-Databases: & SQL — MySQL, OracleDB, PostgreSQL; NoSQL — MongoDB, Apache Cassandra \\
-Tools \& Platforms: & Kafka, Zookeeper, Docker, Kubernetes, OpenSearch, LaunchDarkly (feature flags), Linux, Git, GitHub \\
-Dev \& Infra: & CI/CD, Grafana/AppDynamics (observability), Tracing, Spring Cloud Config \\
+Tech Stack: & \textbf{Python, FastAPI, SpringBoot, React} \\
+Languages: & Python, Java, C/C++, JavaScript, SQL, HTML, CSS \\
+Databases: & SQL — MySQL, OracleDB; NoSQL — MongoDB \\
+Tools \& Platforms: & Docker, Kubernetes, Linux, Git, GitHub, Tailscale, Petals, LoRA \\
+Dev \& Infra: & Async APIs, Token Streaming, Request Batching, Distributed Clusters \\
 CS Fundamentals: & Data Structures \& Algorithms, Design Patterns, Object Oriented Programming, DBMS \\
 Soft-skills: & Cross-team collaboration, stakeholder management, communication \\
 \end{tabularx}
@@ -343,18 +307,18 @@ Soft-skills: & Cross-team collaboration, stakeholder management, communication \
 
 
 
-\section{\textbf{Positions of Responsibility}}
+\section{\textbf{Certifications and Courses}}
 \vspace{-0.4mm}
 \resumeSubHeadingListStart
-\resumePOR{Placement Co-ordinator} % Position
-    { Career Development and Placement Cell, IIT Ropar} %Club,Event
+\resumePOR{Full Stack Web Development} % Position
+    {Comprehensive training in modern web technologies including React, Node.js, and database management} %Club,Event
     {
-    Jun 2019 - May 2021
+    
     } %Tenure Period
-\resumePOR{Alumni-Student Coordinator} % Position
-    { Alumni Cell, IIT Ropar} %Club,Event
+\resumePOR{Data Structures and Algorithms} % Position
+    {Strong problem-solving foundation with 500+ problems solved on LeetCode} %Club,Event
     {
-    Jun 2019 - May 2021
+    
     } %Tenure Period
     \vspace{-1mm}
 % \resumePOR{Branch Representative} % Position
