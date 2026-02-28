@@ -1,0 +1,40 @@
+Shashwat
+Bachelor of Engineering
+Birla Institute of Technology and Science, Pilani
++91-7461012314
+f20230266@pilani.bits-pilani.ac.in
+shashwat-leetcode
+Education
+•	Birla Institute of Technology and Science Pilani, India
+Bachelor of Engineering in Civil						Aug 2023 – July 2027
+Professional Experience
+•	SWECHA Telangana						Remote
+Software Engineer Intern						May 2024 – July 2024
+◦	Architected a distributed GPU cluster by aggregating compute resources from multiple clients, achieving 100+ TFLOPS of combined computational throughput using the Petals distributed inference framework.
+◦	Orchestrated cluster formation and secure node discovery through automated peer-to-peer networking protocols.
+◦	Deployed Telugu language model across the distributed cluster and executed fine-tuning workflows on domain-specific datasets.
+◦	Fine-tuned TinyLlama-1.1B (4-bit quantized) using LoRA on 15K samples, improving task accuracy.
+◦	Built and Dockerized a FastAPI-based LLM inference service with async request handling, token streaming, and request batching.
+Projects
+•	Distributed Cluster Manager
+Resource Orchestration Application
+◦	Developed an application that automates Exo installation and cluster connectivity using Tailscale for secure mesh networking.
+◦	Implemented hardware-aware cluster matching to optimize node selection based on GPU specifications and network topology.
+◦	Built real-time resource monitoring dashboard with metrics for computational capacity (TFLOPS), node availability, and compute time allocation.
+◦	Designed heartbeat-based health monitoring system for automatic node failure detection and recovery.
+•	Log Monitoring Application
+Full-Stack Monitoring System
+◦	Backend (SpringBoot) and Frontend (React) application to monitor append-only log files in real-time.
+◦	Used WatchService for efficient file monitoring and WebSockets for real-time client communication.
+◦	Optimized log reader to handle extremely large files (100+ GB) with minimal memory footprint.
+◦	Implemented multi-client subscription support with play/pause controls via persistent WebSocket connections.
+◦	Built React frontend with scroll-lock feature and real-time log streaming, mimicking terminal behavior.
+Certifications and Courses
+•	Full Stack Web Development - Comprehensive training in modern web technologies including React, Node.js, and database management
+•	Data Structures and Algorithms - Strong problem-solving foundation with 500+ problems solved on LeetCode
+Skills
+Languages: Python, Java, C/C++, JavaScript, SQL, HTML, CSS
+Databases: SQL - MySQL, OracleDB, NoSQL - MongoDB
+Tools: Docker, Kubernetes, Linux, Git, GitHub
+CS Fundamentals: Data Structures & Algorithms, Design Patterns, Object Oriented Programming, DBMS
+Soft-skills: Cross-team collaboration, stakeholder management, Communication
