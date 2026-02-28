@@ -1,0 +1,368 @@
+%-------------------------
+% Resume in Latex
+% License : MIT
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,11pt]{article}
+\usepackage{fontawesome}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=0.6cm, top=0.5cm, right=0.6cm, bottom=0.5cm}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+\usepackage[most]{tcolorbox}
+\tcbset{
+	frame code={}
+	center title,
+	left=0pt,
+	right=0pt,
+	top=0pt,
+	bottom=0pt,
+	colback=gray!20,
+	colframe=white,
+	width=\dimexpr\textwidth\relax,
+	enlarge left by=-2mm,
+	boxsep=4pt,
+	arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{:\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\teamFontSize}[1]{%
+    {\fontsize{10}{12}\selectfont #1}%
+}
+
+\newcommand{\learningFontSize}[1]{%
+    {\fontsize{10}{12}\selectfont #1}%
+}
+
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1},\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+% \renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%
+%%%%%% DEFINE ELEMENTS HERE %%%%%%%
+\newcommand{\name}{Yash} % Your Name
+\newcommand{\course}{Bachelor of Technology} % Your Course
+\newcommand{\roll}{2017CEB1035} % Your Roll No.
+\newcommand{\phone}{9113358078} % Your Phone Number
+\newcommand{\emaila}{yashk.code@gmail.com} %Email 1
+\newcommand{\emailb}{yashk.code@gmail.com} %Email 2
+\newcommand{\github}{yashcodes161198} %Github
+\newcommand{\website}{https://shorturl.at/ijFL7} %Website
+\newcommand{\linkedin}{yash-5a56a4234} %linkedin
+
+
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+%----------HEADING-----------------
+\parbox{0.35cm}{}\parbox{\dimexpr\linewidth-0.35cm\relax}{
+\begin{tabularx}{\linewidth}{L r}
+  \textbf{\LARGE \name} & +91-\phone\\
+  
+  \course & {\faEnvelope} \href{mailto:\emailb}{\emailb}\\
+   {Indian Institute Of Technology, Ropar} &  {\faLinkedin} \href{https://www.linkedin.com/in/\linkedin/}{\underline{yash-linkedIn}}
+   
+   \\
+  {JEE: Top 3\% in Advanced, Top 1\% in Mains} 
+  &  {\faGithub}   \href{https://github.com/yashcodes161198}{\underline{yash-github}}
+\end{tabularx}
+}
+
+\vspace{-2mm}
+
+
+%-----------EDUCATION-----------------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      { Indian Institute of Technology Ropar}{Rupnagar, Punjab}
+      {Bachelor of Technology;  GPA: 7.3/10}{2017 -- 2021}
+    % \small{Coursework: Data structure \& algorithms, Databases, Machine Learning, Data Science, Deep Learning}
+  \resumeSubHeadingListEnd
+\vspace{-5mm}
+%-----------EXPERIENCE-----------------
+\section{\textbf{Professional Experience}}
+  \resumeSubHeadingListStart
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resumeSubheading
+      {\begin{large} ABC Fitness Solutions India\end{large}}{Hyderabad}
+{Software Development Engineer II}{Mar 2025 -- Present}
+
+    \vspace{2mm}
+    \teamFontSize{\textbf{Memberships \& Operations}}
+    \vspace{-3mm}
+\resumeItemListStart
+\item {Optimized a high-CPU \textbf{“get members” API} via \textbf{SQL rewrites} and \textbf{index-friendly filters} — improved \textbf{P50} latency by 20\% and \textbf{P99} latency by 1000\%.}
+\item {Initiated a weekly \textbf{cross-team tech-talk series}; scaled participation to 4--5 teams covering CI/CD, React testing, authentication flows, system integration, and distributed consensus.}
+\item {Fixed the \textbf{refund flow} so UI triggers only after \textbf{successful cancellation} and invoices reload correctly — eliminated \textbf{premature refund prompts}.}
+\item {Centralised retry logic using \textbf{Spring Retry} and \textbf{Spring Cloud Config}, moving backoff to config for easier ops control and improved observability.}
+\item {Led cross-team investigation to root-cause and resolve an \textbf{agreements queue mismatch}, reducing escalations and support overhead.}
+\item {Prevented \textbf{duplicate member creation} by adding validation, backend \textbf{dedupe} safeguards, and improved \textbf{logging} and \textbf{reconciliation}.}
+
+
+\resumeItemListEnd
+
+
+\vspace{-2mm}
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \resumeSubheading
+      {\begin{large} Beehyv Software Solutions\end{large}}{Hyderabad}
+{Software Development Engineer (FullStack)}{Aug 2022 -- Mar 2025}
+
+    \vspace{2mm}
+    \teamFontSize{\textbf{IRIS}}
+    \vspace{-3mm}
+    \resumeItemListStart
+    \item {Developed \textbf{JWT} based login for user authentication for the banking platform of Reserve Bank of South Africa.}
+    \item {Developed password reset with email verification}
+    \item {Designed a solution for seamless \textbf{OTP} integration with customizable settings and URL caching to enhance security and optimize user authentication across APIs. Used Plivo and Exotel for sending OTP, used Circuit-Breaker pattern
+    Designed and implemented a robust OTP authentication system to enhance security and optimize API authentication. Integrated \textbf{Plivo} and \textbf{Exotel} for OTP delivery and leveraged the \textbf{Circuit Breaker} pattern to ensure reliability and fault tolerance
+    }
+    \item {Designed and integrated \textbf{XSS filter} to sanitize all inputs to the project}
+    \item {Designed and developed a fault-tolerant \textbf{scheduler} microservice used by various teams}
+    \item {Built \textbf{thread safe} APIs to generate Liquidity invoice and reimburse the amount using \textbf{Oracle Flexcube}.}
+    \item {Developed dynamic \textbf{pdf-generation} for invoice download}
+    \item {Developed comprehensive \textbf{unit tests (UTs)} and \textbf{integration tests (ITs)} to ensure robustness and reliability of all code modifications.}
+
+    \resumeItemListEnd
+
+    \vspace{-1mm}
+    \teamFontSize{\textbf{Beesheets}}
+    \vspace{-3mm}
+    \resumeItemListStart
+    \item {Enhanced payroll reporting efficiency by \textbf{95\%} through SQL optimizations.}
+    \item{Developed the complete notification system based on \textbf{pub sub} model.}
+    \item {Integrated \textbf{Keycloak} for secure user authentication and authorization. Also used \textbf{Keycloak Admin REST API} for role management and user creation.}
+    \item {Designed entire backend workflow for employee onboarding. Used \textbf{Graph API} to generate new Microsoft users.}
+    \item {\textbf{Dockerized} Beesheets deployment process, improving deployment efficiency and scalability.}
+    \item {Developed user-friendly frontend features using \textbf{AgGrid}, developed custom column filters (available in paid version) from scratch with \textbf{Redux} and \textbf{SpringBoot}.}
+    \item {Developed a generic filter drawer with interactive chips for active filters in \textbf{React}. Also built a generic monthRange selector using \textbf{Redux} from scratch.}
+    \resumeItemListEnd
+    \vspace{-2mm}
+    
+    \vspace{0mm}
+
+\vspace{-2mm}
+%-----------PROJECTS-----------------
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+    
+    % \resumeProject
+    %   {IRCTC‑Tatkal-Auto} %Project Name
+    %   {} %Project Name, Location Name
+    %   {Jun 2024 - Jul 2024} %Event Dates
+    %   {\href{https://github.com/yashcodes161198/Irctc-Tatkal-Auto}{\textbf{Github}}} %Website
+    %   \resumeItemListStart
+    %     \vspace{-6mm}
+    %     \item A fully automated tool to book tatkal ticket.
+    %     \item Replicated the complete ticket booking flow of api calls of \textbf{IRCTC} inside springboot. Used \textbf{cron-jobs} to automatically start booking at 9:59 am. Stored all passenger details in mySql db and made a bare-bones ui using \textbf{Tkinter}.
+    %     \item \textbf{Automatic captcha} solver using a separate python project which uses tensorflow.
+    %     \item Used \textbf{multi-threading} to book the same ticket using multiple ids.
+    % \resumeItemListEnd
+
+    \resumeProject
+      {Http-Server-From-Scratch} %Project Name
+      {} %Project Name, Location Name
+      {Jun 2024 - Jul 2024} %Event Dates
+      {\href{https://github.com/yashcodes161198/simple-java-http-server}{\textbf{Github}}} %Website
+      \resumeItemListStart
+        \vspace{-6mm}
+        \item Custom \textbf{HTTP Parsing \& Validation}: Parses requests with strict format checks, ensuring detailed error feedback.
+        \item Multi-Client Support: Handles multiple client requests concurrently, leveraging \textbf{multithreading}
+        \item Customizable Responses: Allows dynamic response configuration for status codes, headers, and content.
+        \item HTTP Version Support: Ensures compatibility with different HTTP versions, flagging unsupported ones.
+        \item Error Management \& \textbf{Test Driven Developement}: Standardized errors (404, 500, etc.) improve client communication and debugging.
+    \resumeItemListEnd
+    
+     \vspace{50mm}
+    % \vspace{-2mm}
+    \resumeProject
+      {Log Monitoring Application} %Project Name
+      {} %Project Name, Location Name
+      {Mar 2023 - Apr 2023} %Event Dates
+      {\href{https://github.com/yashcodes161198/LogMonitor}
+      {\textbf{Github}}} %Website
+      \resumeItemListStart
+        \vspace{-6mm}
+        \item Backend(SpringBoot) and Frontend(React) application to monitor an append-only log file 
+        \item Used \textbf{WatchService} to efficiently read the log file and \textbf{WebSockets} to communicate changes to the clients. 
+        \item Optimized the reader to handle extremely large log files (\textbf{100 GB}). 
+        \item \textbf{Multiple clients} can subscribe to the service with the option to play/pause the reception of logs while using a persistent websocket connection. 
+        \item \textbf{Reac}t app to connect to the service with \textbf{scroll-lock} feature similar to terminal. Also has \textbf{play/pause} button for logs.
+    \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+\vspace{-7.5mm}
+
+%--------------TECH_SKILLS------------
+\vspace{-1mm}
+\section{\textbf{Skills}}
+
+\begin{tabularx}{\textwidth}{@{}p{3.5cm}X@{}}
+Tech Stack: & \textbf{Java / Spring Boot, Spring Security, React.js, JSP} \\
+Languages: & Java, C/C++, Python, JavaScript \\
+Databases: & SQL — MySQL, OracleDB, PostgreSQL; NoSQL — MongoDB, Apache Cassandra \\
+Tools \& Platforms: & Kafka, Zookeeper, Docker, Kubernetes, OpenSearch, LaunchDarkly (feature flags), Linux, Git, GitHub \\
+Dev \& Infra: & CI/CD, Grafana/AppDynamics (observability), Tracing, Spring Cloud Config \\
+CS Fundamentals: & Data Structures \& Algorithms, Design Patterns, Object Oriented Programming, DBMS \\
+Soft-skills: & Cross-team collaboration, stakeholder management, communication \\
+\end{tabularx}
+
+
+\vspace{-7mm}
+  \resumeSubHeadingListEnd
+
+% %-----------PROJECTS-----------------
+% \section{\textbf{Projects}}
+% \resumeSubHeadingListStart
+
+% \resumeProject
+%       {\begin{large}Ecommerce App \end{large} }
+%       {}
+%       {{\faGithub}   \href{https://github.com/hrushikesh-shelar/ecommerce-app}{\underline{git-link}}} %Event Dates
+%       {} %Website
+%       \vspace{-5mm}
+%       \resumeItemListStart
+%         \item {Developed with MERN stack. Implemented features like User Auth, forgot password, create order, payment flow etc}
+%        \item{\underline{Learnings}: MongoDB, Mongoose, JavaScript, NodeJs, Low-Level Design, Interface Design, CRUD APIs}
+%     \resumeItemListEnd
+% \resumeProject
+%       {\begin{large}Social Media App \end{large}} %Project Name
+%       {}
+%       {{\faGithub}   \href{https://github.com/hrushikesh-shelar/social-media-app}{\underline{git-link}}} %Event Dates
+%       {} %Website
+%       \vspace{-5mm}
+%       \resumeItemListStart
+%         \item {Developed a Social Media App using \textbf{MERN stack}. Implemented features like Auth, Likes, Dark mode etc.}
+%        \item{\underline{Learnings}: MongoDB, Mongoose, JavaScript, NodeJs, Low-Level Design, Interface Design, APIs}
+%     \resumeItemListEnd
+     
+%     \vspace{1mm}
+
+%   \resumeSubHeadingListEnd
+% \vspace{-7.5mm}
+
+% \vspace{-1mm}
+
+
+
+\section{\textbf{Positions of Responsibility}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumePOR{Placement Co-ordinator} % Position
+    { Career Development and Placement Cell, IIT Ropar} %Club,Event
+    {
+    Jun 2019 - May 2021
+    } %Tenure Period
+\resumePOR{Alumni-Student Coordinator} % Position
+    { Alumni Cell, IIT Ropar} %Club,Event
+    {
+    Jun 2019 - May 2021
+    } %Tenure Period
+    \vspace{-1mm}
+% \resumePOR{Branch Representative} % Position
+%     { Academic Council - UG, IIT Ropar} %Club,Event
+%     {Jun. 2019 - Jun 2020} %Tenure Period
+%     \vspace{-1mm}
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+%-------------------------------------------
+\end{document}
